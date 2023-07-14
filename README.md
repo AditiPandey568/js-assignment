@@ -52,3 +52,4 @@ const nft6 = mintNFT("Pawly", "Purple", "Ruby", "Tank Top");
 
 listNFTs();
 console.log("Total NFTs: " + getTotalSupply());
+  
