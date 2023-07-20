@@ -1,18 +1,9 @@
-/*
-Assessment Requirements
-1. Create a variable that can hold a number of NFT's. What type of variable might this be?
-2. Create an object inside your mintNFT function that will hold the metadata for your NFTs. 
-   The metadata values will be passed to the function as parameters. When the NFT is ready, 
-   you will store it in the variable you created in step 1
-3. Your listNFTs() function will print all of your NFTs metadata to the console (i.e. console.log("Name: " + someNFT.name))
-4. For good measure, getTotalSupply() should return the number of NFT's you have created
-*/
-
-// create a variable to hold your NFT's
-
-// this function will take in some values as parameters, create an
-// NFT object using the parameters passed to it for its metadata, 
-// and store it in the variable above.
+#JAVASCRIPT CODE
+JavaScript script that implements a simple Non-Fungible Token (NFT) collection. 
+#DESCRIPTION
+Javascript demonstrates a basic implementation of an NFT collection, allowing users to create and list NFTs with different properties,
+such as name, eye color, bling, and shirt type.  NFTs are typically implemented on a blockchain platform, like Ethereum, using smart contracts to manage ownership, transfers, and other functionalities.
+#EXECUTING CODE
 let nftCount = 0;
 const nfts = [];
 
