@@ -1,12 +1,13 @@
-#JAVASCRIPT CODE
+#JAVASCRIPT CODE-
 JavaScript script that implements a simple Non-Fungible Token (NFT) collection. 
-#DESCRIPTION
+
+#DESCRIPTION-
 Javascript demonstrates a basic implementation of an NFT collection, allowing users to create and list NFTs with different properties,
 such as name, eye color, bling, and shirt type.  NFTs are typically implemented on a blockchain platform, like Ethereum, using smart contracts to manage ownership, transfers, and other functionalities.
-#EXECUTING CODE
+
+#EXECUTING CODE-
 let nftCount = 0;
 const nfts = [];
-
 function mintNFT(_name, _eyecolor, _bling, _shirtType) {
   const nft = {
     name: _name,
@@ -43,3 +44,12 @@ const nft6 = mintNFT("Pawly", "Purple", "Ruby", "Tank Top");
 
 listNFTs();
 console.log("Total NFTs: " + getTotalSupply());
+
+#AUTHOR-
+Metacrafter Chris
+@metacraftersio
+
+#license-
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+
